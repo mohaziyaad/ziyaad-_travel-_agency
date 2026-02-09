@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ZIYAAD TRAVEL AGENCY</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <msin-header class="main header">
+    <div class="overlay">
+      <h1>ZIYAAD TRAVEL AGENCY</h1>
+      <p>safarkagu wa msauuliyadeena ✈️</p>
+      <a href="#book" class="btn"> Hadda dalbo </a>
+    </div>
+  </header>
+
+  <section id="book" class="form-section">
+    <h2>Dalbo ticket ama visa</h2>
+
+    <form id="bookingForm">
+      <input type="text" id="name" placeholder="Full Name">
+      
+      <select id="destination">
+        <option value="">Select Destination</option>
+        <option value="Turkey">Turkey</option>
+        <option value="Dubai">Dubai</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Egypt">Egypt</option>
+      </select>
+
+      <input type="number" id="days" placeholder="Number of Days">
+
+      <button type="submit">Confirm Booking</button>
+    </form>
+
+    <p id="message"></p>
+  </section>
+
+  <section class="packages">
+    <h2>Available Packages</h2>
+    <div id="packageList" class="package-grid"></div>
+  </section>
+
+  <footer>
+    <p>© 2026 Ziyaad Travel Agency | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
